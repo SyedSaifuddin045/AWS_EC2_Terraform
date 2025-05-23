@@ -26,6 +26,8 @@ This Terraform project automates the provisioning of an AWS EC2 instance with a 
 
 ## Architecture
 
+![AWS Architecture Diagram](architecture.png)
+
 - A VPC with a CIDR block of `10.0.0.0/24`
 - A public subnet (`10.0.0.0/28`)
 - An Internet Gateway attached to the VPC
